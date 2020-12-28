@@ -1,3 +1,89 @@
 body{
     direction: rtl;
 }
+.default-btn{
+    width: 150px;
+    height: 40px;
+    padding: 8px 0;
+}
+.banner-image{
+    margin-bottom: 8rem;
+    margin-left: 3rem;
+}
+.why-network{
+    padding-left: 55px;
+}
+.online-network{
+    margin-bottom: 1.5rem;
+}
+.products-about-image{
+    margin-bottom: 8rem;
+}
+.section-title{
+    max-width: 775px;
+}
+.education{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.Percent {
+    background:#10c1e9;
+    color: white;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-top: -60px;
+    font-size: 14px;
+    font-weight: 500px;
+    position: relative;
+}
+.single-products-feature{
+    position: initial;
+}
+h4{
+    font-size: 20px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 0 3rem;
+}
+.overview-content ul li i {
+    color: red;
+    padding-right: 4px;
+}
+.specification-image{
+    width: 450px;
+    margin-left: 0;
+}
+.section1{
+    margin-right: 6rem;
+}
+.text-overview{
+    font-size: 20px;
+    padding-left: 5rem;
+}
+.overview-left-img{
+    margin-bottom: 5rem;
+}
+.overview1-content ul li i {
+    color: red;
+    padding-right: 4px;
+}
+.text-overview1{
+    font-size: 15px;
+    padding-left: 5rem;
+    padding-left: 42rem;
+}
+.users-content {
+    max-width: none; 
+    text-align: center;
+}
+.text-overview3{
+    font-size: 20px;
+    padding-left: 13rem;
+    padding-right: 13rem;
+}
+
