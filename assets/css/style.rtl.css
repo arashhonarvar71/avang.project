@@ -59,21 +59,19 @@ body *{
         margin-top: 1rem;
     }
 }
-.banner-btn{
-    flex-wrap: wrap;
-    
-}
-@media(max-width:768px){
-    .banner-btn{
-        margin-right: 4rem;
-    }
-}
+
 .banner-image{
     margin-bottom: 8rem;
     margin-left: 3rem;
 }
 .why-network{
     padding-left: 55px;
+}
+@media(max-width:768px){
+    .why-network{
+        padding-left: 0;
+        text-align: justify;
+    }
 }
 .online-network{
     font-family: iranyekan !important;
@@ -113,8 +111,9 @@ h4{
     margin-bottom: 2rem;
     
 }
+
 .overview-content ul li i {
-    color: red;
+    color:#10c1e9;
     padding-right: 4px;
 }
 .specification-image{
@@ -124,12 +123,29 @@ h4{
 .section1{
     margin-right: 6rem;
 }
+@media(max-width:768px){
+    .section1{
+        margin-right: 0;
+       padding: 1rem 2rem;
+    }
+}
 .text-overview{
     font-size: 18px;
     margin: 2rem 0 !important;
 }
+@media(max-width:768px){
+    .text-overview{
+        margin: 1rem 0 !important;
+        text-align: center;
+    }
+}
 .overview-left-img{
     margin-bottom: 5rem;
+}
+@media(max-width:768px){
+    .overview-left-img{
+        margin-bottom: 1rem;
+    }
 }
 .overview1-content ul li i {
     color: red;
@@ -150,7 +166,7 @@ h4{
     margin: auto;
 }
 .single-products-feature::before{
-    background-color: rgb(129, 125, 125);
+    background-color: rgb(224 224 224);
 }
 .single-products-feature{
     height: 255px;
@@ -211,6 +227,64 @@ h4{
     padding-top: 50px;
     padding-bottom: 20px;
 }
+@media(max-width:768px){
+    .ptb-100 {
+        padding-top: 30px!important;
+        padding-bottom: 10px!important;
+    }
+}
 .overview-area.ptb-100{
     padding:0;
+}
+.social-icon li  {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.social-icon a:hover svg{
+    fill: #10c1e9;
+}
+.single-products-feature .icon{
+    display: inline-block;
+    height: 65px;
+    width: 65px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px ;
+    background-color: rgb(246, 243, 243);
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 10px;
+}
+.single-icon{
+    padding-left: 7px;
+}
+.overview-item{
+    padding: 0 1rem;
+}
+@media(max-width:1200px){
+    .overview-content{
+        padding-top: 2rem;
+    }
+}
+@media(max-width:768px){
+    .overviw4{
+        order: 1;
+    }
+}
+.nav-link{
+    margin-left: 14px!important;
+    margin-right: 14px !important;
+}
+@media(max-width:1200px){
+    .nav-link{
+        font-size: 14px!important;
+    }
 }
